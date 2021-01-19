@@ -17,7 +17,8 @@ public class PacketListener extends PacketListenerDynamic {
     private final CrashPlugin crashPlugin;
 
     /**
-     * Constructor for the PacketListener runnable.
+     * Constructor for the PacketListener runnable
+     * Note: This will set the packet priority to Monitor
      *
      * @param crashPlugin   Reference to the CrashPlugin class
      */
@@ -29,6 +30,8 @@ public class PacketListener extends PacketListenerDynamic {
 
     /**
      * When a packet is received
+     *
+     * Info: Listening the packet flying packet.
      */
     @Override
     public void onPacketReceive(final PacketReceiveEvent event) {
