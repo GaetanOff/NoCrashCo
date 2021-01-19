@@ -4,7 +4,7 @@ import com.gaetan.api.plugin.GCore;
 import com.gaetan.nocrashco.listener.PacketListener;
 import io.github.retrooper.packetevents.PacketEvents;
 
-public class CrashPlugin extends GCore {
+public final class CrashPlugin extends GCore {
     /**
      * This is trigger when the server loading
      * Note: This is the same as the classic onLoad

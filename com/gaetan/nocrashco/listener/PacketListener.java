@@ -10,7 +10,7 @@ import net.minecraft.server.v1_8_R3.PacketPlayInFlying;
 import org.bukkit.craftbukkit.v1_8_R3.entity.CraftPlayer;
 import org.bukkit.entity.Player;
 
-public class PacketListener extends PacketListenerDynamic {
+public final class PacketListener extends PacketListenerDynamic {
     /**
      * Reference to the CrashPlugin class
      */
