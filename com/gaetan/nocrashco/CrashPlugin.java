@@ -9,7 +9,8 @@ public class CrashPlugin extends GCore {
      * This is trigger when the server loading
      * Note: This is the same as the classic onLoad
      *
-     * Info: This will config and load PacketEvents.
+     * Info: This will config and load PacketEvents and set
+     * the core count available to JVM.
      */
     @Override
     protected void onPluginLoad() {
