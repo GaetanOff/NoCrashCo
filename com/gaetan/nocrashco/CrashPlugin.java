@@ -1,14 +1,14 @@
 package com.gaetan.nocrashco;
 
-import com.gaetan.api.plugin.GCore;
+import com.gaetan.api.plugin.SimplePlugin;
 import com.gaetan.nocrashco.listener.PacketListener;
 import io.github.retrooper.packetevents.PacketEvents;
 
-public final class CrashPlugin extends GCore {
+public final class CrashPlugin extends SimplePlugin {
     /**
      * This is trigger when the server loading
      * Note: This is the same as the classic onLoad
-     *
+     * <p>
      * Info: This will config and load PacketEvents and set
      * the core count available to JVM.
      */
@@ -27,7 +27,7 @@ public final class CrashPlugin extends GCore {
     /**
      * Method to launch the plugin
      * Note: This is the same as the classic onEnable
-     *
+     * <p>
      * Info: This will initialize PacketEvents.
      */
     @Override
@@ -38,7 +38,7 @@ public final class CrashPlugin extends GCore {
     /**
      * Method to register listener
      * Note: This will be trigger after the loading of the server
-     *
+     * <p>
      * Info: This will register the PacketListener to listen the packet.
      */
     @Override
@@ -49,7 +49,7 @@ public final class CrashPlugin extends GCore {
     /**
      * Method to stop the plugin
      * Note: This is the same as the classic onDisable
-     *
+     * <p>
      * Info: This will stop PacketEvents.
      */
     @Override
